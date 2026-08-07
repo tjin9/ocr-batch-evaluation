@@ -41,15 +41,17 @@ three different strategies:
   complex wooden background with decorative arrows — a genuine hard case 
   for traditional OCR tools.
 
-## Project Structure
 
-├── ocr_batch_evaluation.ipynb # Main pipeline: baseline, preprocessing, comparison
-├── exploration_hard_case.ipynb # Deep dive into a single hard-to-read image
-├── Test_images/ # 30 test images
-├── Image name and annotation.csv # Ground truth labels
+ ## Project Structure
+
+```text
+├── ocr_batch_evaluation.ipynb      # Main pipeline: baseline, preprocessing, comparison
+├── exploration_hard_case.ipynb     # Deep dive into a single hard-to-read image
+├── Test_images/                    # Directory containing 30 test images
+├── Image name and annotation.csv   # Ground truth labels
 ├── requirements.txt
 └── README.md
-
+```
 ## Tech Stack
 
 - **Tesseract OCR** (via `pytesseract`) — text extraction
